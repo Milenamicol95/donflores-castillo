@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/**Seccion Contacto**/
+.flexContainer{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #1d2025;
+	margin: 50px 150px;
+	
+}
+form{
+	min-width: 400px;
+	flex: 1;
+	text-align: center;
+	padding: 30px ;
+	order: 10;
+}
+.formInput{
+	width: 100%;
+	padding: 7px;
+	margin: 7px 0;
+	border: none;
+	border-bottom: 3px solid #E66E02;
+	background: transparent;
+	color: whitesmoke;
+}
+.formInput:focus{
+	background: linear-gradient(to bottom, transparent, #222);
+	outline: none;
+	border-bottom: 3px solid #F05102;
+}
+.formInput.buttonContacto{
+	background-color: #D92E09;
+	border-bottom: none;
+	padding: 12px;
+}
+.formInput.buttonContacto:hover{
+	background:  linear-gradient(to bottom, #D92E09, #E66E02) ;
+	border-bottom: none;
+	padding: 12px;
+}
+
+form textarea{
+	min-height: 140px;
+	resize: none; 
+}
+.formImg{
+	flex: 1;
+	padding: 50px 0;
+	display: flex;
+	order: 2;
+
+}
+
+.formImg div{
+	padding: 20px;
+
+}
+.imgContainer div{
+	background-color: #1d2025;
+	border-radius: 50%;
+	text-align: center;
+	padding: 20px;
+}
+.formImg img{
+	width: 60%;
+	min-width: 300px;
+	max-width: 400px;
+	
+}
+
